@@ -1,7 +1,7 @@
 import { createApi, fetchBaseQuery } from "@reduxjs/toolkit/query/react";
-const API_TOKEN="175620-1MPEig4Hs0Fbga"
+//const API_TOKEN="175620-1MPEig4Hs0Fbga"
 
-type getInPlayProps={
+/*type getInPlayProps={
     success:number;
     pager: {
         page:number;
@@ -9,7 +9,7 @@ type getInPlayProps={
         total:number;
     },
     results: any[];
-}
+}*/
 
 export const InPlayApi = createApi({
   reducerPath: "InPlayApi",
